@@ -1,0 +1,17 @@
+ignores:
+  - "@commitlint/cli"
+  - "@commitlint/config-conventional"
+  - "eslint-plugin-jsx-a11y"
+  - "eslint-plugin-react"
+  - "globals"
+  - "prettier"
+  - "typescript-eslint"
+  - "depcheck"
+  - "@chromatic-com/storybook"
+  - "@storybook/addon-essentials"
+  - "@storybook/addon-interactions"
+  - "@storybook/addon-links"
+  - "@storybook/addon-onboarding"
+  - "@storybook/blocks"
+  - "jest-environment-jsdom"
+skip-missing: true

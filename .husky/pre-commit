@@ -1,0 +1,21 @@
+echo "Pulling code changes..."
+git pull || 
+(echo 'Changes pulled failed.. Please fix them before committing.' && exit 1)
+echo "Changes pulled successfully."
+echo "Indenting code..."
+npx prettier --write . || 
+(echo 'Lint check failed. Please fix them before committing.' && exit 1)
+echo "Indent Code sucessfully"
+echo "Checking for linting errors"
+yarn run lint || 
+(echo 'Lint check failed. Please fix them before commiting.' && exit 1)
+echo "Lint check done successfully"
+echo "Running Tests..."
+yarn run test || 
+(echo 'Running TEst failed. Please fix any issues before continuing.' && exit 1)
+echo "Test done sucessfully"
+echo "Building project & Checking for unused dependencies..."
+yarn run build && npx depcheck || 
+(echo 'Build failed or Depcheck failed. Please fix any issues before continuing.' && exit 1)
+echo "Build and Depcheck done sucessfully"
+echo "Done"
