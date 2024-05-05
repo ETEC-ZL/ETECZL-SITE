@@ -6,6 +6,7 @@ import LightTheme from '../ui/themes/Light/Light.theme';
 import DarkTheme from '../ui/themes/Dark/Dark.theme';
 import { PagesType } from '../data/@types/Page/Page.type';
 import GlobalStyle from '../ui/styles/Global';
+import Navbar from '../ui/partials/Navbar/Navbar';
 
 const Pages = ({ theme, setTheme }: PagesType) => {
   const [fontSize, setFontSize] = useState(16);
@@ -34,6 +35,7 @@ const Pages = ({ theme, setTheme }: PagesType) => {
         HandleIncrementFontSize={handleIncrementFontSize}
         HandleDecrementFontSize={handleDecrementFontSize}
       />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

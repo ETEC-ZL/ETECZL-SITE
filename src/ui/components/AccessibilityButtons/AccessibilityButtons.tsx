@@ -1,6 +1,6 @@
 import { AccessibilityButtonsType } from '../../../data/@types/AccessibilityButtons/AccessibilityButtons.type';
-import ToggleFontSizeButton from '../../components/ToggleFontSizeButton/ToggleFontSizeButton';
-import ToggleThemeButton from '../../components/ToggleThemeButton/ToggleThemeButton';
+import ToggleFontSizeButton from '../ToggleFontSizeButton/ToggleFontSizeButton';
+import ToggleThemeButton from '../ToggleThemeButton/ToggleThemeButton';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 const AccessibilityButtons = (props: AccessibilityButtonsType) => {

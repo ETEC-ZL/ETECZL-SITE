@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import AccessibilityButtons from '../ui/partials/AccessibilityButtons/AccessibilityButtons';
+import AccessibilityButtons from '../ui/components/AccessibilityButtons/AccessibilityButtons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { fn } from '@storybook/test';
 

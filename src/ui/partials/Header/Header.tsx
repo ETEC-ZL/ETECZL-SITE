@@ -1,6 +1,6 @@
 import { HeaderType } from '../../../data/@types/Header/Header.type';
 import { HeaderContainer } from '../../styles/Header/Header.styles';
-import AccessibilityButtons from '../AccessibilityButtons/AccessibilityButtons';
+import AccessibilityButtons from '../../components/AccessibilityButtons/AccessibilityButtons';
 
 const Header = (props: HeaderType) => {
   return (
