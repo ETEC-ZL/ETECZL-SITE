@@ -1,5 +1,11 @@
+import Hero from '../../ui/partials/Hero/Hero';
+
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Home;

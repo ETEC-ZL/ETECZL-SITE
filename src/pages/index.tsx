@@ -35,7 +35,7 @@ const Pages = ({ theme, setTheme }: PagesType) => {
         HandleIncrementFontSize={handleIncrementFontSize}
         HandleDecrementFontSize={handleDecrementFontSize}
       />
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
