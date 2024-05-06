@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="mt-4">
               Conheça a Etec Zona Leste: Excelência em Educação Técnica na Região da Zona Leste de São Paulo
             </h1>
-            <Button className="mt-4">Conheça a Nossa História</Button>
+            <Button className="mt-4 bg-danger border-0 fw-bold">Conheça a Nossa História</Button>
           </div>
         </Container>
       </HeroContent>

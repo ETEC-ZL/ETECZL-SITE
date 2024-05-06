@@ -10,8 +10,8 @@ const Navbar = () => {
       <NavbarBootstrap expand="lg" className="w-100">
         <Container>
           <NavbarBootstrap.Brand>ETEC Zona Leste</NavbarBootstrap.Brand>
-          <NavbarBootstrap.Toggle aria-controls="navbar" />
-          <NavbarBootstrap.Collapse id="navbar" className="justify-content-end ">
+          <NavbarBootstrap.Toggle aria-controls="navbar" className="border-0" />
+          <NavbarBootstrap.Collapse id="navbar" className="justify-content-end">
             <Nav className="ml-auto">
               <Nav.Link>Início</Nav.Link>
               <Nav.Link>Cursos</Nav.Link>
